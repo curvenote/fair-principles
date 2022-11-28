@@ -54,13 +54,13 @@ console.log(formatPrinciples('A*', { chalk }));
 
 ## highlightFAIR
 
-Highlights the word FAIR with a specific color, for example with an underline or in red (the default).
+Highlights the word FAIR with a specific color, for example, with an underline or in red (the default).
 
 ```typescript
 import chalk from 'chalk';
 import { highlightFAIR } from 'fair-principles';
 
-highlightFAIR(ordered.join(''), { color: chalk.underline });
+highlightFAIR('A', { color: chalk.underline });
 ```
 
 ## Format Options
