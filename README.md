@@ -19,7 +19,7 @@ import { formatPrinciples } from 'fair-principles';
 console.log(formatPrinciples('*', { chalk }));
 ```
 
-![](/images/all-principles.png)
+![](https://raw.githubusercontent.com/curvenote/fair-principles/main/images/all-principles.png)
 
 ## formatPrinciples
 

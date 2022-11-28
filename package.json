@@ -2,6 +2,23 @@
   "name": "fair-principles",
   "version": "1.0.2",
   "description": "Access to the FAIR Principles through Node. Encourage the Findability, Accessibility, Interoperability, and Reuse of digital assets in your Javascript application.",
+  "keywords": [
+    "FAIR",
+    "Open Science"
+  ],
+  "author": "Rowan Cockett <rowan@curvenote.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/curvenote/fair-principles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curvenote/fair-principles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/curvenote/fair-principles/issues"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
@@ -20,12 +37,6 @@
     "build": "npm-run-all -l clean -p build:cjs build:esm declarations",
     "prepublishOnly": "npm run build && npm run test"
   },
-  "keywords": [
-    "FAIR",
-    "Open Science"
-  ],
-  "author": "Rowan Cockett <rowan@curvenote.com>",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.2.3",
     "chalk": "^4.1.2",
