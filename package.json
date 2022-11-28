@@ -1,6 +1,6 @@
 {
   "name": "fair-principles",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Access to the FAIR Principles through Node. Encourage the Findability, Accessibility, Interoperability, and Reuse of digital assets in your Javascript application.",
   "keywords": [
     "FAIR",
