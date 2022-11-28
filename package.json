@@ -1,8 +1,13 @@
 {
   "name": "fair-principles",
   "version": "1.0.1",
-  "description": "Access to the FAIR Principles through Node. Encourage the Findability, Accessibility, Interoperability, and Reuse of digital assets in your javascript application.",
-  "main": "dist/index.js",
+  "description": "Access to the FAIR Principles through Node. Encourage the Findability, Accessibility, Interoperability, and Reuse of digital assets in your Javascript application.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "test": "jest",
