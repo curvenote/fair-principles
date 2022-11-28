@@ -12,7 +12,8 @@
     "build:esm": "tsc --module es2015   --outDir dist/esm",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "declarations": "tsc --declaration --emitDeclarationOnly --declarationMap --outDir dist/types",
-    "build": "npm-run-all -l clean -p build:cjs build:esm declarations"
+    "build": "npm-run-all -l clean -p build:cjs build:esm declarations",
+    "prepublishOnly": "npm run build && npm run test"
   },
   "keywords": [
     "FAIR",
