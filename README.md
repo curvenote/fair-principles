@@ -1,6 +1,14 @@
 # fair-principles
 
+[![fair-principles on npm](https://img.shields.io/npm/v/fair-principles.svg)](https://www.npmjs.com/package/fair-principles)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/curvenote/fair-principles/blob/main/LICENSE)
+![CI](https://github.com/curvenote/fair-principles/workflows/CI/badge.svg)
+
 A tiny utility to show [FAIR Principles](https://www.go-fair.org/fair-principles/) in your application. Used under the CC-BY License from [GO FAIR](https://www.go-fair.org/fair-principles/).
+
+```shell
+npm install fair-principles
+```
 
 The library has **no dependencies**, however it works well with `chalk`!
 
@@ -11,7 +19,7 @@ import { formatPrinciples } from 'fair-principles';
 console.log(formatPrinciples('*', { chalk }));
 ```
 
-![](./images/all-principles.png)
+![](/images/all-principles.png)
 
 ## formatPrinciples
 
