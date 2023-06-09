@@ -73,3 +73,16 @@ All format calls can take `chalk` as an argument, this will apply defaults. You 
 - `title`: (`Formatter`): A color formatter for the title
 - `header`: (`Formatter`): A color formatter for the header
 - `enumerator`: (`Formatter`): A color formatter for the enumerator (e.g. `A1`)
+
+---
+
+As of v2.0.0 this package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c).
+
+---
+
+<p style="text-align: center; color: #aaa; padding-top: 50px">
+  Made with love by
+  <a href="https://curvenote.com" target="_blank" style="color: #aaa">
+    <img src="https://curvenote.dev/images/icon.png" style="height: 1em" /> Curvenote
+  </a>
+</p>

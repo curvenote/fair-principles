@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'vitest';
 import chalk from 'chalk';
 import { highlightFAIR, formatPrinciples, createPrincipleUrl, formatPrinciple } from '../src';
 
